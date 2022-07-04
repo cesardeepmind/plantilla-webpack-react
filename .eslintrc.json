@@ -11,13 +11,13 @@
         "document": true
     },
     "settings": {
-        "react":{
+        "react": {
             "version": "detect"
         }
     },
     "overrides": [
         {
-            "files":[
+            "files": [
                 "*.jsx",
                 "*.js"
             ]
@@ -27,7 +27,7 @@
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": "latest",
+        "ecmaVersion": 12,
         "sourceType": "module"
     },
     "plugins": [
@@ -35,6 +35,9 @@
     ],
     "rules": {
         "indent": 0,
-        "react/prop-types": 0
+        "react/prop-types": 0,
+        "arrow-body-style": 0,
+        "react/no-array-index-key": 0,
+        "linebreak-style": 0
     }
 }
